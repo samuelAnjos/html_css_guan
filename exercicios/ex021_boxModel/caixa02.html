@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: beige;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(253, 223, 228);
+            padding: 3px;
+            box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.123);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(25, 95, 224);
+            font-weight: bold;
+            margin-right: 24px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        article {
+            background-color: rgb(224, 224, 224);
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: bisque;
+        }
+
+        footer {
+            background-color: rgb(204, 225, 243);
+            color: black;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>My Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+   </header>
+<!-- ======== -->
+    <main>
+        <section id="assunto">
+            <p>Esporte Política Economia</p>
+        </section>
+
+        <section id="noticia">
+            <article>
+                <h2>Noticia sobre Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quisquam porro, quae quam id facilis, provident minima necessitatibus eos quasi commodi vel sapiente voluptatem soluta dolorem voluptate similique iure!</p>
+                <aside>
+                    <p>Artigo escrito pelo João Lorem</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+<!-- ======== -->
+    <footer>
+        <p>Desenvolvido por Samuel</p>
+    </footer>
+
+</body>
+</html>
